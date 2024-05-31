@@ -1,0 +1,17 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=11223344task
+      - POSTGRES_USER=crypto_data
+      - POSTGRES_DB=crypto_data
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - ${POSTGRES_PORT:-5432}:5432
+
+volumes:
+  postgres_data:
