@@ -39,52 +39,7 @@ d. Запустите приложение Streamlit:
    streamlit run streamlit.py
    
 
-3. Описание структуры проекта
-------------------------------
-
-C:.
-│   .env
-│   docker-compose.yml
-│   final_project.ipynb
-│   requirements.txt
-│   streamlit.py
-│
-├───Blocks
-│   │   __init__.py
-│   │
-│   ├───ClusteringBlockModule
-│   │   │   ClusteringBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───GroupInvestorBlockModule
-│   │   │   GroupInvestorBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───InvestorBlockModule
-│   │   │   InvestorBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───MapBlockModule
-│   │   │   MapBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───PreditionBlockModule
-│   │   │   PredictionBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───ProjectInvestorBlockModule
-│   │   │   ProjectInvestorBlock.py
-│   │   │   __init__.py
-│   │
-│   ├───RoundBlockModule
-│   │   │   RoundBlock.py
-│   │   │   __init__.py
-│   │
-│   └───__pycache__
-│
-└───__pycache__
-
-4. Описание классов и модулей
+3. Описание классов и модулей
 
 StreamlitApp
 ===============
